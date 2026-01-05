@@ -1,0 +1,74 @@
+.custom-shape-divider-bottom-1760410917 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1760410917 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 214px;
+}
+
+.custom-shape-divider-bottom-1760410917 .shape-fill {
+    fill: #5dc0f1;
+}
+
+body{
+    background-color: #eaeaee;
+    font-family: 'Lilita One', cursive;
+    font-weight: 1ren;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;  /* Centraliza horizontalmente */
+  align-items: center;      /* Centraliza verticalmente (opcional) */
+  flex-direction: column;   /* Coloca os itens em coluna */
+  text-align: center;
+
+}
+
+.banner figure {
+  display: flex;
+  flex-direction: column;   /* As imagens ficam uma embaixo da outra */
+  align-items: center;      /* Centraliza as duas */
+  margin: 0;                /* Remove margens padrão */
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== SOBRE ===== */
+.sobre p {
+    padding: 10vh 0vw;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #ffffff;
+  
+}
+
+.sobre h1{
+    display:flex;
+justify-content: center;
+color: #ffffff;
+}
+.sobre{
+    background-color:#5dc0f1 ;
+   margin: 20vh 0vw;
+}
+
+.imagem-ondas-wrapper img{
+    border-radius: 50%;
+    border-color: #ff66c4;
+    border-style: double;
+}
